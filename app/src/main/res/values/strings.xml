@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">Buggy Caps</string>
-    <string name="action_settings">Settings</string>
     <string name="app_title">Buggy Caps</string>
     <string name="about_description">
-        "Shop unique and handmade beaded head accessories from creative shop "Buggy caps". Bead embroidery from multicolored diachronic glass beads, in addition to the unique type of Swarovski stones and other finished materials, such like chezh and japanese seed beads, french wire and leather. You can select the type of head cap, color and model of insect. Used technique is embroidery beadwork. The back of the brooch is sewed directly on the cap, the most stable. All the jewelry is an absolutely individual mode, there are no doubles. So you can be sure you will never meet anyone wearing the same piece as you. It's the shop's personal design, work and passion for beadwork."
+        "Shop unique and handmade beaded head accessories from creative shop "Buggy caps". Bead embroidery from multicolored diachronic glass beads, in addition to the unique type of Swarovski stones and other finished materials, such like czech and japanese seed beads, french wire and leather. You can select the type of head cap, color and model of insect. Used technique is embroidery beadwork. The back of the brooch is sewed directly on the cap, the most stable. All the jewelry is an absolutely individual mode, there are no doubles. So you can be sure you will never meet anyone wearing the same piece as you. It's the shop's personal design, work and passion for beadwork."
     </string>
     <string name="care_description">
         "Recommendations for care: do not to put into washing machine, keep away from sunlight and wear with delight.\n\nImportant fact: Color may vary slightly due to the color calibration of each individual monitor."
@@ -14,4 +13,10 @@
     <string name="contact">
          "If you want a similar model please contact me using:"
     </string>
+    <string name="aboutTitle">About</string>
+    <string name="modelTitle">Models</string>
+    <string name="careTitle">Care instructions</string>
+    <string name="contactTitle">Contact</string>
+    <string name="phoneContact">1-877-355-5787</string>
+    <string name="emailContact">contact@google.com</string>
 </resources>
