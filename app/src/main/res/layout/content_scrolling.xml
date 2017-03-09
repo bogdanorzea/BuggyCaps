@@ -216,22 +216,30 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:orientation="horizontal">
 
-            <Button
+            <TextView
+                android:id="@+id/phoneContact"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="E-MAIL" />
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="1-877-355-5787"
+                android:textAlignment="center" />
 
-            <Button
+            <TextView
+                android:id="@+id/emailContact"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="PHONE" />
+                android:autoLink="email"
+                android:linksClickable="true"
+                android:text="contact@google.com"
+                android:textAlignment="center" />
         </LinearLayout>
 
     </LinearLayout>
