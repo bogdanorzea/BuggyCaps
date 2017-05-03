@@ -17,6 +17,11 @@
     <string name="modelTitle">Models</string>
     <string name="careTitle">Care instructions</string>
     <string name="contactTitle">Contact</string>
-    <string name="phoneContact">1-877-355-5787</string>
+    <string name="phoneContact">1–877-355-5787</string>
     <string name="emailContact">contact@google.com</string>
+    <string name="spider">Spider</string>
+    <string name="bee">Bee</string>
+    <string name="beetle_1">Beetle 1</string>
+    <string name="dragonfly">Dragonfly</string>
+    <string name="beetle_2">Beetle 2</string>
 </resources>

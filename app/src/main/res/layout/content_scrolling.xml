@@ -20,7 +20,7 @@
             android:layout_margin="@dimen/text_margin"
             android:text="@string/aboutTitle"
             android:textAllCaps="true"
-            android:textSize="24sp" />
+            android:textSize="@dimen/text_size" />
 
         <TextView
             android:layout_width="match_parent"
@@ -35,7 +35,7 @@
             android:layout_margin="@dimen/text_margin"
             android:text="@string/modelTitle"
             android:textAllCaps="true"
-            android:textSize="24sp" />
+            android:textSize="@dimen/text_size" />
 
         <TextView
             android:layout_width="match_parent"
@@ -46,9 +46,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardBackgroundColor="#EEEEEE"
-            app:cardCornerRadius="8dp">
+            android:layout_margin="@dimen/layout_margin"
+            app:cardBackgroundColor="@color/cardBackgroundColor"
+            app:cardCornerRadius="@dimen/card_corner_radius">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/text_margin"
-                    android:text="Bee"
+                    android:text="@string/bee"
                     android:textAllCaps="true" />
 
                 <ImageView
@@ -74,9 +74,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardBackgroundColor="#EEEEEE"
-            app:cardCornerRadius="8dp">
+            android:layout_margin="@dimen/layout_margin"
+            app:cardBackgroundColor="@color/cardBackgroundColor"
+            app:cardCornerRadius="@dimen/card_corner_radius">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -87,7 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/text_margin"
-                    android:text="Beetle 1"
+                    android:text="@string/beetle_1"
                     android:textAllCaps="true" />
 
                 <ImageView
@@ -102,9 +102,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardBackgroundColor="#EEEEEE"
-            app:cardCornerRadius="8dp">
+            android:layout_margin="@dimen/layout_margin"
+            app:cardBackgroundColor="@color/cardBackgroundColor"
+            app:cardCornerRadius="@dimen/card_corner_radius">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -115,7 +115,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/text_margin"
-                    android:text="Beetle 2"
+                    android:text="@string/beetle_2"
                     android:textAllCaps="true" />
 
                 <ImageView
@@ -130,9 +130,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardBackgroundColor="#EEEEEE"
-            app:cardCornerRadius="8dp">
+            android:layout_margin="@dimen/layout_margin"
+            app:cardBackgroundColor="@color/cardBackgroundColor"
+            app:cardCornerRadius="@dimen/card_corner_radius">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -143,7 +143,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/text_margin"
-                    android:text="Dragonfly"
+                    android:text="@string/dragonfly"
                     android:textAllCaps="true" />
 
                 <ImageView
@@ -158,9 +158,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardBackgroundColor="#EEEEEE"
-            app:cardCornerRadius="8dp">
+            android:layout_margin="@dimen/layout_margin"
+            app:cardBackgroundColor="@color/cardBackgroundColor"
+            app:cardCornerRadius="@dimen/card_corner_radius">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -171,7 +171,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/text_margin"
-                    android:text="Spider"
+                    android:text="@string/spider"
                     android:textAllCaps="true" />
 
                 <ImageView
@@ -190,7 +190,7 @@
             android:layout_margin="@dimen/text_margin"
             android:text="@string/careTitle"
             android:textAllCaps="true"
-            android:textSize="24sp" />
+            android:textSize="@dimen/text_size" />
 
         <TextView
             android:layout_width="match_parent"
@@ -205,7 +205,7 @@
             android:layout_margin="@dimen/text_margin"
             android:text="@string/contactTitle"
             android:textAllCaps="true"
-            android:textSize="24sp" />
+            android:textSize="@dimen/text_size" />
 
         <TextView
             android:layout_width="match_parent"
@@ -216,9 +216,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:layout_marginRight="@dimen/layout_margin"
             android:orientation="horizontal">
 
             <TextView
